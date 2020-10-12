@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>文字数カウンタ</title>
+</head>
+<body>
+    <textarea name="txtarea" id=txtarea></textarea>
+    <p>文字数：<span id="showlength">0</span></p>
+    <a download="value.txt" href="javascript:void(0)" id="download">ダウンロード</a>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    <style type="text/css">
+        *{
+            text-align: center;
+        }
+        #txtarea{
+            width: 80vw;
+            height: 80vh;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: left;
+            font-size: 1.3rem;
+            font-family: Arial;
+            resize: none;
+        }
+        p{
+            font-size: 1.3rem;
+        }
+    </style>
+</body>
+</html>
