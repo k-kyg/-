@@ -16,5 +16,4 @@ download.addEventListener("click", e => {
     download.download = `${filename}.txt`
     download.charset = 'utf-8';
     download.href = `data:text,${encodeURIComponent(textarea.value)}`;
-    filename = null;
 });
